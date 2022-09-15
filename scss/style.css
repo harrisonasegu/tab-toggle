@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main.wrap {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+body main.wrap .buttonSection {
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+body main.wrap .buttonSection button {
+  border: 1px solid rgba(29, 173, 29, 0.397);
+  border-radius: 8px;
+  padding: 5px 15px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+body main.wrap .buttonSection button.active {
+  background-color: #1dad1d;
+}
+
+body main.wrap section #sectionOne {
+  display: none;
+}
+
+body main.wrap section #sectionOne h3 {
+  margin-top: 20px;
+}
+
+body main.wrap section #sectionOne p {
+  width: 100%;
+}
+
+body main.wrap section #sectionTwo {
+  display: none;
+}
+
+body main.wrap section #sectionTwo h3 {
+  margin-top: 20px;
+}
+
+body main.wrap section #sectionTwo p {
+  width: 100%;
+}
+
+body main.wrap section #sectionThree {
+  display: none;
+}
+
+body main.wrap section #sectionThree h3 {
+  margin-top: 20px;
+}
+
+body main.wrap section #sectionThree p {
+  width: 100%;
+}
+
+body main.wrap > .refreshdiv {
+  border: 1px solid #1dad1d;
+}
+
+body main.wrap > .refreshdiv > .refreshBtn {
+  border: transparent;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */

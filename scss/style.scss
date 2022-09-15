@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body {
+  //  border: 1px solid red;
+
+   main.wrap {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+
+      //buttonSection--------------------- 
+      .buttonSection {
+        // border: 1px solid red;
+        column-gap: 20px;
+
+        //button---------------------------
+        button {
+          border: 1px solid  rgba(29, 173, 29, 0.397);
+          border-radius: 8px;
+          padding: 5px 15px;
+          font-size: 20px;
+          margin-left: 20px;
+
+          // active button------------------
+          &.active {
+            background-color: rgb(29, 173, 29);
+          }
+        }
+      }
+
+      //section---------------------------
+      section {
+        // border: 1px solid red;
+
+        // #sectionOne--------------------
+        #sectionOne {
+          display: none;
+          
+          
+          //h2-----------------------------
+          h3 {
+            // border: 1px solid red;
+            margin-top: 20px;
+          } 
+
+
+          //paragraphy---------------------
+          p {
+            // border: 1px solid red;
+            width: 100%;
+          }  
+        }
+
+        
+        // #sectionOne---------------------
+        #sectionTwo {
+          display: none;
+
+          
+          //h2-----------------------------
+          h3 {
+            // border: 1px solid red;
+            margin-top: 20px;
+          } 
+
+
+          //paragraphy---------------------
+          p {
+            // border: 1px solid red;
+            width: 100%;
+          }  
+        }
+
+        
+        // #sectionOne----------------------
+        #sectionThree {
+          display: none;
+
+          
+          //h2-------------------------------
+          h3 {
+            // border: 1px solid red;
+            margin-top: 20px;
+          } 
+
+
+          //paragraphy------------------------
+          p {
+            // border: 1px solid red;
+            width: 100%;
+          }  
+        }
+      }
+
+      // refreshdiv----------------------------
+      & > .refreshdiv {
+        border: 1px solid  rgb(29, 173, 29);
+        
+        // refreshBtn--------------------------
+      & > .refreshBtn {
+          border: transparent;
+          padding: 5px 10px;
+          font-size: 15px;
+        }
+      }
+  }
+}
